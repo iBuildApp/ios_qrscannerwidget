@@ -10,9 +10,7 @@ import AppBuilderCore
 import AppBuilderCoreUI
 import AVFoundation
 
-class QRScannerViewController: UIViewController, BaseViewControllerType {
-    
-    var options: TransitionOptions?
+class QRScannerViewController: BaseViewController {
     
     // MARK: - Private properties
     /// Widget type indentifier
