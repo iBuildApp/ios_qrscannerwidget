@@ -6,8 +6,8 @@
 //
 
 import UIKit
-import AppBuilderCore
-import AppBuilderCoreUI
+import IBACore
+import IBACoreUI
 import AVFoundation
 
 class QRScannerViewController: BaseViewController {
