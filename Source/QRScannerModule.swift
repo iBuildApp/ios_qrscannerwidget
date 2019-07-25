@@ -18,7 +18,7 @@ public class QRScannerModule: BaseModule, ModuleType {
     internal var data: DataModel?
     
     public override class func canHandle(config: WidgetModel) -> Bool {
-        return config.type == "barcode" ? true : false
+        return config.type == "qrscaner"
     }
     
     public required init() {
